@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Tajawal:wght@300;400;500;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+  height: 400px;
+  width: 70%;
+  background-color: hsl(244, 38%, 16%);
+  display: flex;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.box-1 {
+  font-family: "Inter", sans-serif;
+  padding: 50px;
+  width: 50%;
+  height: 100%;
+}
+.box-1 h1 {
+  color: white;
+}
+.box-1 h1 b {
+  color: hsl(277, 64%, 61%);
+}
+.box-1 p {
+  color: hsla(0, 0%, 100%, 0.75);
+  margin-top: 20px;
+  font-size: 15px;
+  width: 80%;
+}
+.box-1 ul {
+  color: white;
+  list-style: none;
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.box-1 ul li span {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-transform: uppercase;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 13px;
+}
+.box-2 {
+  width: 50%;
+  height: 100%;
+  background-color: hsl(277, 64%, 61%);
+}
+.box-2 img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
